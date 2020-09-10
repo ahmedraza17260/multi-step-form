@@ -33,17 +33,23 @@ const FormTwo: React.FC<Props> = ({ handleNext }) => {
     >
       <div className="login__container">
         <Form>
-          <label htmlFor="occupation">Occupation </label>
+          <h4>
+            <label htmlFor="occupation">Occupation </label>
+          </h4>
           <Field name="occupation" type="text" />
           <ErrorMessage name="occupation" />
           <br />
 
-          <label htmlFor="city">City </label>
+          <h4>
+            <label htmlFor="city">City </label>
+          </h4>
           <Field name="city" type="text" />
           <ErrorMessage name="city" />
           <br />
 
-          <label htmlFor="bio">Bio </label>
+          <h4>
+            <label htmlFor="bio">Bio </label>
+          </h4>
           <Field name="bio" type="text" />
           <ErrorMessage name="bio" />
           <br />

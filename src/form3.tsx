@@ -34,12 +34,16 @@ const FormThree: React.FC<Props> = ({ handleNext }) => {
     >
       <div className="login__container">
         <Form>
-          <label htmlFor="email">Email Address</label>
+          <h4>
+            <label htmlFor="email">Email Address</label>
+          </h4>
           <Field name="email" type="email" />
           <ErrorMessage name="email" />
           <br />
 
-          <label htmlFor="password">Password</label>
+          <h4>
+            <label htmlFor="password">Password</label>
+          </h4>
           <Field name="password" type="password" />
           <ErrorMessage name="password" />
 
